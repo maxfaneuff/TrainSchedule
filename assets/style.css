@@ -18,25 +18,11 @@ body {
 	color: white;
 }
 
-#train-table-header {
+#train-table-header, #add-train-panel {
 	width: 10%;
 	position: relative;
 	left: 20px;
 	background:  rgba(0,148,230,0.5);
-}
-
-#add-train {
-	width: 30%;
-	position: relative;
-	left: 20px;
-}
-
-#add-train-text {
-	text-align: center;
-	color: white;
-	height: 20px;
-	width: 30;
-
 }
 
 #header-text{
@@ -49,13 +35,21 @@ body {
 	background:  rgba(0,148,230,0.5);
 }
 
+#add-train-panel {
+	position: relative;
+	bottom: 10px;
+}
+#add-train-text {
+	color: white;
+	text-align: center;
+}
+
 #train-table{
 	background: rgba(0,148,230,0.8);
 }
 
 #train-name-label, #destination-label, #frequency-label, #time-label {
-	color: white;
-	background: rgba(0,148,230,0.8);
+	color: rgb(255,255,255);
 }
 
 tr {
@@ -65,4 +59,9 @@ tr {
 tr:hover {
 	color: black;
 	background: rgba(255,255,0,0.6)
+}
+
+#new-train-forms {
+	background:  rgba(0,148,230,0.5);
+
 }

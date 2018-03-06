@@ -45,6 +45,7 @@ $("#submit").on("click", function() {
 })
 
 database.ref().on("child_added", function(childSnapshot){
+  
   addTrain = childSnapshot.val().train;
   addDestination = childSnapshot.val().destination;
   addTrainTime = childSnapshot.val().firstTrainTime;
